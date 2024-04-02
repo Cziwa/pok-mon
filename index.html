@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #logo{
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(115, 187, 221);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #container{
+            width: 100%;
+            height: 100vh;
+            background-color: aqua;
+            display: flex;
+        }
+
+        #parte-texto{
+            width: 50%;
+            height: 100vh;
+            background-color: lightseagreen;
+            padding-left: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #parte-foto{
+            width: 50%;
+            height: 100%;
+            background-color: rgb(91, 91, 145);
+            display: flex;
+            justify-content: center;
+
+        }
+        span{
+            font-size: 5vh;
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="logo">
+        <img src="pokemonlogo.png" alt="pokemonlogo" width="300px">
+    </div>
+    <div id="container">
+        <div id="parte-texto">
+            <span>Aparência</span>
+            <p>
+                Squirtle é um pequeno Pokémon, azul-claro com uma aparência semelhante ao de uma tartaruga. Como tartarugas, Squirtle tem um escudo que cobre seu corpo com orifícios que permitem que seus membros, cauda e cabeça para ser exposto. Ao contrário de uma tartaruga, Squirtle é normalmente bípede.</p>
+                
+                <span>Habilidade</span>
+            <p>Squirtle tem as capacidade, o que aumenta o poder de seus ataques do tipo água em 150%, se a sua saúde cai para 33% ou abaixo.
+
+                Squirtle também tem a capacidade natural de atirar água de sua boca, que é onde a maior parte de seus ataques vem.</p>
+
+        </div>
+        <div id="parte-foto">
+            <img id="squirtle" src="squirtle.webp" alt="foto do pokémon squirtle">
+        
+        </div>
+    </div>
+</body>
+</html>
